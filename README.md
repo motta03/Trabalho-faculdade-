@@ -16,6 +16,8 @@ elif 'F' in genero:
     pesoideal = (alturadapeossa * 62.1) - 44.7
     print (f'O seu peso ideal é: {pesoideal:.2f}')
     
+itilizando o input e colhida a informação do genero en segida um if verifica o genero informado e novamente o input colhe a informação desta ves do pesso para caucular o pesso ideal de acordo com o genero.
+    
 "2. João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o
 rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o
 estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma
@@ -29,7 +31,9 @@ if Pesca > 50:
     PescaExcedente = (Pesca - 50)
     multa = PescaExcedente * 4.00
     print(f'a pesca de hj excedeu o limite de peso de 50Kg sendo de {PescaExcedente} alem do limite gerando uma multe de R${multa}')
-    
+ 
+ nesse codgo o input colhe a informação de quantidade pescada em Kg, em segida e i "if" verifica se a quantidade excede 50Kg se sim e calculada uma multa sobre o valor excedido.  
+
 "3. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas
 no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados
 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos
@@ -56,6 +60,8 @@ INSS = R$:{INSS:.2f}
 contribuiçao sindical = R$:{sindicato:.2f}
 salário líquido = R${salario_L:.2f}''')
 
+nesse codgo e inicialmente defidedas as segintes variaveis:salario_H, H_trabalhada, salario_B. depois um if e utilizado para verificar se o salario bruto escede o minimo para ser cobrado o imposto de renda "IR" subsequente e definido utilizando os cauculos apropriados os descontos de INSS e sindicato por fim e subtraido todos os descontos e obtido o salario liquido "salario_L".
+
 4. Faça um Programa que peça a idade e a altura de 5 pessoas, armazene cada informação no seu
 respectivo índice. Imprima a idade e a altura na ordem inversa a ordem lida.
 
@@ -69,6 +75,8 @@ while I < 5:
     I+=1
 print(idade_altura[::-1])
 
+inicialmente e definito uma variavel I=0 e uma lista vazia "idade_altura" em seguida destro e um while e colhido atraves de um input a idade e a altuda, depois criada uma tupla com os valires e por fim adiciodada a lista "idade_altura".
+
 5. Faça um Programa que leia uma estrutura A com 10 números inteiros, calcule e mostre a soma
 dos quadrados dos elementos desta estrutura.
 
@@ -81,6 +89,8 @@ for a in A:
 print(lista)
 print(sum(lista))
 
+utilizando o for e percorrida a lista "A" en seguida na variavel expoente e multiplicado o valor da lista por ele mesmo e o resultado adicionado a uma lista q por fim e somada com a finção "sum".
+
 6. Faça um Programa que leia duas estruturas com 10 elementos cada. Gere uma terceira estrutura
 de 20 elementos, cujos valores deverão ser compostos pelos elementos intercalados das duas
 estruturas.
@@ -92,3 +102,5 @@ for i in range(10):
     lista3.append(lista1[i])
     lista3.append(lista2[i])
 print(lista3)
+
+iniciamos nosso codgo com tres lista a 1° com numeros impares e a 2° com pares e a 3° vazia usamos o for para obtermor os indicer e o range para repeti-lo 10 vezes e em cada e a dicionado respectivamento um item de cada lista a 3° lista.
